@@ -6,6 +6,8 @@ const router = express.Router();
 const Anuncio = require('../../models/Anuncio');
 //const { query, body, param, validationResult } = require('express-validator');
 
+//const jwtAuth=require('../../lib/jwtAuth');
+
 
 router.post('/', async (req, res, next) => {
   try {
@@ -203,7 +205,7 @@ let objectFilter={};
 
 
   } catch (err) {
-    next(err);
+     return  res.next(err);
   }
 });
 

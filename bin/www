@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-
+'use strict';
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
 var debug = require('debug')('nodepop:server');
-var http = require('http');
+var https = require('https');
+const fs = require('fs');
 
 /**
  * Get port from environment and store in Express.
@@ -16,11 +17,16 @@ var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
- * Create HTTP server.
+ * Create HTTP server. 
  */
 
-var server = http.createServer(app);
 
+const options = {
+  key: fs.readFileSync('./certs/example.com+7-key.pem'),
+  cert: fs.readFileSync('./certs/example.com+7.pem')
+};
+
+var server = https.createServer(options,app);
 /**
  * Listen on provided port, on all network interfaces.
  */
