@@ -1,20 +1,23 @@
 'use strict';
 
 const express = require('express');
+//const mongoose=require('mongoose');
+const upload=require('../../lib/multerConfig');
 const router = express.Router();
-
 const Anuncio = require('../../models/Anuncio');
 //const { query, body, param, validationResult } = require('express-validator');
 
 //const jwtAuth=require('../../lib/jwtAuth');
 
 
-router.post('/', async (req, res, next) => {
+router.post('/',upload.single('foto'), async (req, res, next) => {
   try {
     const data = req.body;
-
+    
     const anuncio = new Anuncio(data);
-
+    
+    await anuncio.setFoto(req.file) ;
+    
     const anuncioGuardado = await anuncio.save();
 
     res.json({ success: true, result: anuncioGuardado });
@@ -206,6 +209,7 @@ let objectFilter={};
 
   } catch (err) {
      return  res.next(err);
+    //next(err);
   }
 });
 

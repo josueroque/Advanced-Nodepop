@@ -6,7 +6,7 @@
 
 var app = require('../app');
 var debug = require('debug')('nodepop:server');
-var https = require('https');
+var http = require('http');
 const fs = require('fs');
 
 /**
@@ -21,12 +21,12 @@ app.set('port', port);
  */
 
 
-const options = {
-  key: fs.readFileSync('./certs/example.com+7-key.pem'),
-  cert: fs.readFileSync('./certs/example.com+7.pem')
-};
+// const options = {
+//   key: fs.readFileSync('./certs/example.com+7-key.pem'),
+//   cert: fs.readFileSync('./certs/example.com+7.pem')
+// };
 
-var server = https.createServer(options,app);
+var server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
