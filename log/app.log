@@ -15313,3 +15313,104 @@
 2020-01-24 07:51: null03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4
 2020-01-24 07:51: [0mPOST /apiv1/authenticate [32m200 [0m2.073 ms - 42[0m
 2020-01-24 07:51: [0mPOST /apiv1/authenticate [32m200 [0m2.073 ms - 42[0m
+2020-01-24 08:03: user@example.com
+2020-01-24 08:03: 1234
+2020-01-24 08:03: { _id: 5e2af907d2d19012405888f7,
+2020-01-24 08:03:   email: 'user@example.com',
+2020-01-24 08:03:   password:
+2020-01-24 08:03:    '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4',
+2020-01-24 08:03:   __v: 0 }03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4
+2020-01-24 08:03: [0mPOST /apiv1/authenticate [32m200 [0m4.114 ms - 194[0m
+2020-01-24 08:03: [0mPOST /apiv1/authenticate [32m200 [0m4.114 ms - 194[0m
+2020-01-24 08:08: undefined
+2020-01-24 08:08: {}
+2020-01-24 08:08: [0mGET / [32m200 [0m4.141 ms - 2562[0m
+2020-01-24 08:08: [0mGET / [32m200 [0m4.141 ms - 2562[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [32m200 [0m0.830 ms - 435[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [32m200 [0m0.830 ms - 435[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [32m200 [0m1.290 ms - 1708[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [32m200 [0m1.290 ms - 1708[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [32m200 [0m1.787 ms - 1192[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [32m200 [0m1.787 ms - 1192[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [32m200 [0m3.478 ms - 29757[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [32m200 [0m3.478 ms - 29757[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [32m200 [0m1.255 ms - 31681[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [32m200 [0m1.255 ms - 31681[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [32m200 [0m1.090 ms - 18889[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [32m200 [0m1.090 ms - 18889[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.525 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.525 ms - -[0m
+2020-01-24 08:08: [0mGET /favicon.ico [0m- [0m- ms - -[0m
+2020-01-24 08:08: [0mGET /favicon.ico [0m- [0m- ms - -[0m
+2020-01-24 08:08: undefined
+2020-01-24 08:08: {}
+2020-01-24 08:08: [0mGET /?lang=es [36m304 [0m2.707 ms - -[0m
+2020-01-24 08:08: [0mGET /?lang=es [36m304 [0m2.707 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [32m200 [0m0.838 ms - 435[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [32m200 [0m0.838 ms - 435[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.653 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.653 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.776 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.776 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.639 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.639 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m1.052 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m1.052 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m1.291 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m1.291 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [32m200 [0m1.451 ms - 18889[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [32m200 [0m1.451 ms - 18889[0m
+2020-01-24 08:08: undefined
+2020-01-24 08:08: {}
+2020-01-24 08:08: [0mGET /?lang=en [36m304 [0m3.025 ms - -[0m
+2020-01-24 08:08: [0mGET /?lang=en [36m304 [0m3.025 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.440 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.440 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.431 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.431 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.712 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.712 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.660 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.660 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m0.644 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m0.644 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.685 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.685 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m1.164 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m1.164 ms - -[0m
+2020-01-24 08:08: undefined
+2020-01-24 08:08: {}
+2020-01-24 08:08: [0mGET /?lang=es [36m304 [0m3.153 ms - -[0m
+2020-01-24 08:08: [0mGET /?lang=es [36m304 [0m3.153 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.311 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.311 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m1.527 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m1.527 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m1.237 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m1.237 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m1.278 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m1.278 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m1.744 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m1.744 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m2.284 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m2.284 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m0.417 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m0.417 ms - -[0m
+2020-01-24 08:08: undefined
+2020-01-24 08:08: {}
+2020-01-24 08:08: [0mGET /?lang=en [36m304 [0m2.809 ms - -[0m
+2020-01-24 08:08: [0mGET /?lang=en [36m304 [0m2.809 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.421 ms - -[0m
+2020-01-24 08:08: [0mGET /stylesheets/style.css [36m304 [0m0.421 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.663 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/en.png [36m304 [0m0.663 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.710 ms - -[0m
+2020-01-24 08:08: [0mGET /images/langs/es.png [36m304 [0m0.710 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.582 ms - -[0m
+2020-01-24 08:08: [0mGET /images/Suzuki-Alto.jpg [36m304 [0m0.582 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m0.636 ms - -[0m
+2020-01-24 08:08: [0mGET /images/G7.jpg [36m304 [0m0.636 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.338 ms - -[0m
+2020-01-24 08:08: [0mGET /images/laptop.jpg [36m304 [0m0.338 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m0.389 ms - -[0m
+2020-01-24 08:08: [0mGET /images/shirt.jpg [36m304 [0m0.389 ms - -[0m
