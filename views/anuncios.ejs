@@ -17,7 +17,7 @@
           <ul class="nav navbar-nav ml-auto">
     <% getLocales().forEach( lang => { %>
             <li class="nav-item">
-              <a class="nav-link" href="/anuncios?lang=<%= lang %>"><img src="/images/langs/<%= lang %>.png"></a>
+              <a class="nav-link"  href="/?lang=<%= lang %>"><img src="/images/langs/<%= lang %>.png"></a>
             </li>
         <% }) %>
           </ul>
@@ -36,13 +36,13 @@
         <img src="/images/<%= ad.foto %> "   width="200" height="160">
         <ul style="margin-left:-7vw">
             <li><%= __('Name') %>: <%= ad.nombre %> </li>
-            <li><%= __('Price') %>:: <%= ad.precio %> </li>
+            <li><%= __('Price') %>: <%= ad.precio %> </li>
             <% if (ad.venta ) { %>
-              <li><%= __('Type') %>:: Venta </li>
+              <li><%= __('Type') %>: Venta </li>
             <% } else { %>
-              <li><%= __('Type') %>:: Busqueda </li>
+              <li><%= __('Type') %>: Busqueda </li>
             <% } %>
-              <li><%= __('Tags') %>::<%= ad.tags %></li> 
+              <li><%= __('Tags') %>:<%= ad.tags %></li> 
         </ul>
      </article>
       <% }) %> 
