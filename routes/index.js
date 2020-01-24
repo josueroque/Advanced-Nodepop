@@ -199,7 +199,7 @@ let objectFilter={};
 
    res.locals.title='Nodepop';
    res.locals.adList=anuncios;
-   res.render('index'); 
+   res.render('anuncios'); 
 
 
   } catch (err) {
