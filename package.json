@@ -10,7 +10,7 @@
     "installDB": "cross-env nodemon ./lib/install_db.js"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "connect-mongo": "^3.1.2",
     "cookie-parser": "~1.4.4",
     "cote": "^1.0.0",
